@@ -1,0 +1,4 @@
+[2019-10-26 21:16:51] [info]  [10684] Apache Commons Daemon procrun (1.2.2.0 64-bit) started.
+[2019-10-26 21:16:51] [info]  [10684] Installing service 'Tomcat9' name 'Apache Tomcat 9.0 Tomcat9'.
+[2019-10-26 21:16:51] [info]  [10684] Service 'Tomcat9' installed.
+[2019-10-26 21:16:51] [info]  [10684] Apache Commons Daemon procrun finished.
