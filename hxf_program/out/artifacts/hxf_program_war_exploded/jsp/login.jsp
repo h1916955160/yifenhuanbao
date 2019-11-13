@@ -41,7 +41,7 @@
             <td>
                 <input type="submit" value="登陆"/>
                 <input type="reset" value="重置"/>
-                <a href=index.jsp"" target="_blank">注册</a>
+                <a href="index.jsp" target="_blank">注册</a>
             </td>
         </tr>
     </table>

@@ -9,13 +9,23 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class DBUtil {
-    private static String dbUrl="jdbc:mysql://localhost:3306/db_garbage_system";
+
     private  static String user="root";
     private  static  String password="1916955160huang";
     private static String jdbcName="com.mysql.jdbc.Driver";
 
-    //连接数据库
+    //连接数据库，帖子连接数据库的方法
     public   static Connection getCon() throws ClassNotFoundException, SQLException{
+        String dbUrl="jdbc:mysql://localhost:3306/invitation";
+        Class.forName(jdbcName);
+        System.out.println("测试加载数据库成功");
+        Connection conn = DriverManager.getConnection(dbUrl, user, password);
+        System.out.println("测试数据库连接成功");
+        return conn;
+    }
+    //用户连接数据库用的方法
+    public   static Connection user_getCon() throws ClassNotFoundException, SQLException{
+        String dbUrl="jdbc:mysql://localhost:3306/user_info";
         Class.forName(jdbcName);
         System.out.println("测试加载数据库成功");
         Connection conn = DriverManager.getConnection(dbUrl, user, password);
@@ -23,7 +33,7 @@ public class DBUtil {
         return conn;
     }
     //关闭数据库
-    public void closeCon(Connection con,PreparedStatement ps, ResultSet rs) throws Exception {
+    public static void closeCon(Connection con,PreparedStatement ps, ResultSet rs) throws Exception {
         if (rs != null) {//关闭资源，避免出现异常
             try {
                 rs.close();
@@ -46,7 +56,7 @@ public class DBUtil {
         }
     }
 
-    //增删查改
+    //增删查改，进行传参，执行等步骤
     public static boolean addUpdateDelete(String sql,Object[] arr) throws ClassNotFoundException, SQLException{
          Connection con;
          PreparedStatement ps;

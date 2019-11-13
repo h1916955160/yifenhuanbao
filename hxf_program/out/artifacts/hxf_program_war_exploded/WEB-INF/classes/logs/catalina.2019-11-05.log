@@ -1,0 +1,12 @@
+05-Nov-2019 17:09:43.726 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Nov-2019 17:30:12.739 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Nov-2019 17:32:08.909 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Nov-2019 17:49:31.674 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Nov-2019 18:27:27.622 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Nov-2019 18:34:40.028 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Nov-2019 18:36:09.539 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Nov-2019 18:37:19.929 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Nov-2019 18:38:42.400 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Nov-2019 22:44:03.414 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Nov-2019 22:50:26.190 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Nov-2019 23:59:30.409 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received

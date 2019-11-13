@@ -79,7 +79,7 @@ public class RegServlet extends HttpServlet {
             e.printStackTrace();
         }
 
-        request.getRequestDispatcher("jsp/main.jsp").forward(request, response);
+        request.getRequestDispatcher("jsp/login.jsp").forward(request, response);
 
         /*if (conn != null)
         {

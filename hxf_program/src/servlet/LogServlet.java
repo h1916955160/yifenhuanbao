@@ -1,4 +1,5 @@
 package servlet;
+import user.invitation;
 import user.user_reg;
 import dao.UserDao;
 import dao.UserDaoImpl;
@@ -8,6 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 
 @WebServlet(name = "LogServlet")
 public class LogServlet extends HttpServlet {
@@ -40,7 +42,7 @@ public class LogServlet extends HttpServlet {
         if(us!=null){
             request.setAttribute("info", "登陆成功");
             request.setAttribute("user_info",us);
-            request.getRequestDispatcher("/jsp/main.jsp").forward(request, response);
+            request.getRequestDispatcher("/jsp/first_web.jsp").forward(request, response);
         }else{
             request.setAttribute("info", "登录失败");
             request.getRequestDispatcher("/jsp/login.jsp").forward(request, response);
@@ -48,4 +50,7 @@ public class LogServlet extends HttpServlet {
 
 
     }
+
+
+
 }

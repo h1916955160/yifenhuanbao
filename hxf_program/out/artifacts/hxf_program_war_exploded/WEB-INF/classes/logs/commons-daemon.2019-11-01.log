@@ -1,0 +1,9 @@
+[2019-11-01 20:48:27] [info]  [ 3980] Apache Commons Daemon procrun (1.2.2.0 64-bit) started.
+[2019-11-01 20:48:27] [info]  [ 3980] Running Service 'Tomcat9'...
+[2019-11-01 20:48:27] [info]  [ 4824] Starting service...
+[2019-11-01 20:48:30] [info]  [ 4824] Service started in 2393 milliseconds.
+[2019-11-02 09:17:33] [info]  [ 8168] Console SHUTDOWN event signaled.
+[2019-11-02 09:17:34] [info]  [ 8168] Stopping service...
+[2019-11-02 09:17:35] [info]  [ 8168] Service stop thread completed.
+[2019-11-02 09:17:36] [info]  [ 3980] Run service finished.
+[2019-11-02 09:17:36] [info]  [ 3980] Apache Commons Daemon procrun finished.

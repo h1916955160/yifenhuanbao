@@ -32,5 +32,7 @@
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="apache-tomcat-9.0" level="project" />
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" name="jstl-1.2" level="project" />
+    <orderEntry type="library" name="lib (2)" level="project" />
   </component>
 </module>

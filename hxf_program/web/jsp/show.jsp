@@ -38,7 +38,7 @@
         <td><%= i%></td>
         <td><%=garbageList.get(i).getGarbage_name()%></td>
         <td><%=garbageList.get(i).getGarbage_type()%></td>
-        <td><a href="jsp/main.jsp?id=<%=i%>&name=id">详情</a></td>
+        <td><a href="/jsp/main.jsp?id=<%=i%>&name=id">详情</a></td>
     </tr>
     <%
         }

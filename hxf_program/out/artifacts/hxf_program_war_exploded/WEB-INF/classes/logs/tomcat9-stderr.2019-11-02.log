@@ -1,0 +1,174 @@
+
+2019-11-02 09:18:05 Apache Commons Daemon procrun stderr initialized.
+02-Nov-2019 09:18:10.259 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/9.0.27
+02-Nov-2019 09:18:10.283 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Oct 7 2019 09:57:22 UTC
+02-Nov-2019 09:18:10.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.27.0
+02-Nov-2019 09:18:10.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Nov-2019 09:18:10.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+02-Nov-2019 09:18:10.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+02-Nov-2019 09:18:10.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         E:\environment\java
+02-Nov-2019 09:18:10.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+02-Nov-2019 09:18:10.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+02-Nov-2019 09:18:10.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\environment\apache-tomcat-9.0.27
+02-Nov-2019 09:18:10.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\environment\apache-tomcat-9.0.27
+02-Nov-2019 09:18:10.490 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\environment\apache-tomcat-9.0.27
+02-Nov-2019 09:18:10.490 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\environment\apache-tomcat-9.0.27
+02-Nov-2019 09:18:10.490 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=E:\environment\apache-tomcat-9.0.27\endorsed
+02-Nov-2019 09:18:10.490 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\environment\apache-tomcat-9.0.27\temp
+02-Nov-2019 09:18:10.492 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Nov-2019 09:18:10.493 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\environment\apache-tomcat-9.0.27\conf\logging.properties
+02-Nov-2019 09:18:10.493 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Nov-2019 09:18:10.493 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Nov-2019 09:18:10.493 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2019 09:18:10.493 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+02-Nov-2019 09:18:10.493 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+02-Nov-2019 09:18:10.493 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+02-Nov-2019 09:18:10.493 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+02-Nov-2019 09:18:10.493 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+02-Nov-2019 09:18:10.493 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+02-Nov-2019 09:18:10.493 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+02-Nov-2019 09:18:10.575 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+02-Nov-2019 09:18:11.543 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Nov-2019 09:18:12.977 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["ajp-nio-8009"]
+02-Nov-2019 09:18:13.006 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[3,537]毫秒内初始化
+02-Nov-2019 09:18:13.115 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Nov-2019 09:18:13.118 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+02-Nov-2019 09:18:13.214 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\environment\apache-tomcat-9.0.27\webapps\docs]
+02-Nov-2019 09:18:13.934 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\environment\apache-tomcat-9.0.27\webapps\docs] has finished in [720] ms
+02-Nov-2019 09:18:13.966 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\environment\apache-tomcat-9.0.27\webapps\examples]
+02-Nov-2019 09:18:16.227 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\environment\apache-tomcat-9.0.27\webapps\examples] has finished in [2,261] ms
+02-Nov-2019 09:18:16.248 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\environment\apache-tomcat-9.0.27\webapps\host-manager]
+02-Nov-2019 09:18:16.353 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\environment\apache-tomcat-9.0.27\webapps\host-manager] has finished in [105] ms
+02-Nov-2019 09:18:16.353 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\environment\apache-tomcat-9.0.27\webapps\manager]
+02-Nov-2019 09:18:16.430 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\environment\apache-tomcat-9.0.27\webapps\manager] has finished in [77] ms
+02-Nov-2019 09:18:16.430 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\environment\apache-tomcat-9.0.27\webapps\ROOT]
+02-Nov-2019 09:18:16.515 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\environment\apache-tomcat-9.0.27\webapps\ROOT] has finished in [85] ms
+02-Nov-2019 09:18:16.536 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Nov-2019 09:18:16.546 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["ajp-nio-8009"]
+02-Nov-2019 09:18:16.554 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in [3,540] milliseconds
+02-Nov-2019 09:23:20.342 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Nov-2019 09:23:20.644 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Nov-2019 09:23:20.769 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Nov-2019 09:23:20.925 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Nov-2019 09:23:20.925 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Nov-2019 09:23:20.925 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Nov-2019 09:23:20.925 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["ajp-nio-8009"]
+
+2019-11-02 09:23:48 Apache Commons Daemon procrun stderr initialized.
+02-Nov-2019 09:23:52.701 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/9.0.27
+02-Nov-2019 09:23:52.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Oct 7 2019 09:57:22 UTC
+02-Nov-2019 09:23:52.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.27.0
+02-Nov-2019 09:23:52.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Nov-2019 09:23:52.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+02-Nov-2019 09:23:52.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+02-Nov-2019 09:23:52.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         E:\environment\java
+02-Nov-2019 09:23:52.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+02-Nov-2019 09:23:52.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+02-Nov-2019 09:23:52.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\environment\apache-tomcat-9.0.27
+02-Nov-2019 09:23:52.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\environment\apache-tomcat-9.0.27
+02-Nov-2019 09:23:52.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\environment\apache-tomcat-9.0.27
+02-Nov-2019 09:23:52.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\environment\apache-tomcat-9.0.27
+02-Nov-2019 09:23:52.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=E:\environment\apache-tomcat-9.0.27\endorsed
+02-Nov-2019 09:23:52.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\environment\apache-tomcat-9.0.27\temp
+02-Nov-2019 09:23:52.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Nov-2019 09:23:52.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\environment\apache-tomcat-9.0.27\conf\logging.properties
+02-Nov-2019 09:23:52.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Nov-2019 09:23:52.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Nov-2019 09:23:52.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2019 09:23:52.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+02-Nov-2019 09:23:52.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+02-Nov-2019 09:23:52.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+02-Nov-2019 09:23:52.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+02-Nov-2019 09:23:52.903 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+02-Nov-2019 09:23:52.903 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+02-Nov-2019 09:23:52.903 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+02-Nov-2019 09:23:53.064 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+02-Nov-2019 09:23:54.126 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Nov-2019 09:23:54.525 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["ajp-nio-8009"]
+02-Nov-2019 09:23:54.566 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[2,805]毫秒内初始化
+02-Nov-2019 09:23:54.667 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Nov-2019 09:23:54.667 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+02-Nov-2019 09:23:54.707 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\environment\apache-tomcat-9.0.27\webapps\docs]
+02-Nov-2019 09:23:55.586 警告 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [266] milliseconds.
+02-Nov-2019 09:23:56.055 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\environment\apache-tomcat-9.0.27\webapps\docs] has finished in [1,348] ms
+02-Nov-2019 09:23:56.333 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\environment\apache-tomcat-9.0.27\webapps\examples]
+02-Nov-2019 09:23:59.480 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\environment\apache-tomcat-9.0.27\webapps\examples] has finished in [3,147] ms
+02-Nov-2019 09:23:59.508 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\environment\apache-tomcat-9.0.27\webapps\host-manager]
+02-Nov-2019 09:23:59.599 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\environment\apache-tomcat-9.0.27\webapps\host-manager] has finished in [91] ms
+02-Nov-2019 09:23:59.600 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\environment\apache-tomcat-9.0.27\webapps\manager]
+02-Nov-2019 09:23:59.733 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\environment\apache-tomcat-9.0.27\webapps\manager] has finished in [133] ms
+02-Nov-2019 09:23:59.733 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\environment\apache-tomcat-9.0.27\webapps\ROOT]
+02-Nov-2019 09:23:59.819 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\environment\apache-tomcat-9.0.27\webapps\ROOT] has finished in [86] ms
+02-Nov-2019 09:23:59.823 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Nov-2019 09:23:59.831 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["ajp-nio-8009"]
+02-Nov-2019 09:23:59.833 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in [5,266] milliseconds
+02-Nov-2019 22:01:46.480 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 15:40:12.111 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 15:47:00.758 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 15:48:59.843 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 15:53:20.949 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 15:53:58.864 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 15:54:27.226 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 15:59:42.743 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 16:00:20.858 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 16:01:44.985 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 16:27:53.462 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 16:39:41.103 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 16:40:36.254 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 16:42:38.078 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 16:47:52.606 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 16:54:46.133 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 17:20:17.776 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 17:22:08.885 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 17:23:03.036 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 17:38:50.725 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 17:39:26.118 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 17:41:52.811 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 18:48:23.102 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 18:50:48.892 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 18:54:05.004 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 18:57:38.721 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 19:02:29.249 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 19:03:45.655 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 19:04:55.736 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 19:14:48.257 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 19:21:34.659 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 19:22:17.346 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 20:59:24.457 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:03:26.598 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:04:13.946 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:04:58.099 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:07:00.216 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:07:39.076 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:09:48.283 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:11:23.343 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:12:03.633 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:17:48.236 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:18:36.659 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:21:11.073 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:25:49.757 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:29:08.491 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:35:45.308 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:37:38.796 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:38:51.601 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:41:54.936 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:42:57.198 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:56:14.544 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:57:26.035 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 21:59:55.191 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 22:01:55.951 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 22:03:17.814 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 22:04:09.655 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 22:14:05.497 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 22:15:34.017 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 22:24:05.804 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 22:40:17.007 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 22:41:48.378 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 22:46:07.491 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 23:04:29.230 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+03-Nov-2019 23:05:20.096 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+04-Nov-2019 19:36:21.411 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+04-Nov-2019 19:37:37.635 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+04-Nov-2019 19:38:50.450 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+04-Nov-2019 20:26:42.895 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+04-Nov-2019 20:33:38.927 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received

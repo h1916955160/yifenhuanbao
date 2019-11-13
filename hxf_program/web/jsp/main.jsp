@@ -17,6 +17,7 @@
     <title>Title</title>
 </head>
 <body>
+
     恭喜<%=request.getAttribute("search_info")%><br>
     <%
         ArrayList<garbage> garbageList = (ArrayList<garbage>)session.getAttribute("detail_garbage");
